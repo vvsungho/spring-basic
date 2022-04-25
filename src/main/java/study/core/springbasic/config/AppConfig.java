@@ -27,7 +27,7 @@ public class AppConfig {
     @Bean
     public DiscountService getDiscountService() {
 //        return new PercentDiscountRepository();
-        return new FixedDiscountRepository();
+        return new FixedDiscountService();
 
     }
 
